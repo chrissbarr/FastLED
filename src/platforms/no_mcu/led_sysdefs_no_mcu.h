@@ -4,7 +4,7 @@
 
 typedef volatile uint32_t RoReg;
 typedef volatile uint32_t RwReg;
-typedef unsigned long prog_uint32_t;
+//typedef unsigned long prog_uint32_t;
 
 
 // Default to NOT using PROGMEM here

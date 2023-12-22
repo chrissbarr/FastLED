@@ -8,6 +8,10 @@
 volatile uint32_t fuckit;
 #endif
 
+#if defined(FASTLED_NO_MCU)
+#include <Arduino.h>
+#endif
+
 FASTLED_NAMESPACE_BEGIN
 
 /// Pointer to the matrix object when using the Smart Matrix Library
